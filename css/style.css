@@ -623,3 +623,10 @@ a {
         display: inline-block;
     }
 }
+
+
+@media (min-width: 768px){
+    .col-sm-10 {
+        width: 100%;
+}
+}
