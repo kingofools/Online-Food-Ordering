@@ -47,9 +47,9 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Restaurants</a></li>
-                            <li><a href="#">Login | Register</a>/li>
+                            <li><a href="#">Login | Register</a></li>
                             <li><a href="#">Sign out</a></li>
-                            <li><a href="#"><i class="material-icons">shopping_basket</i> 0 Items </span></a>
+                            <li><a href="#"><i class="material-icons">shopping_basket</i> 0 Items </span></a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -57,12 +57,25 @@
         </div>
 
         <div class="row text-center">
-            <div class="col-sm-6 col-sm-offset-3">
+            <div class="col-sm-6">
+                 <div class="row">
+                    <div class="col-xs-12">
+                        <div class="input-group search-bar">
+                            <input type="search" class="form-control input-lg" placeholder="Type a Location or Restaurant or Food">
+                            <span class="input-group-btn">
+                                <button class="btn btn-lg btn-default" type="button"><i class="material-icons">search</i></button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+
+        <div class="row text-center">
+            <div class="col-sm-6 ">
                 <div class="row">
                     <div class="text-center col-xs-12 text-shadow text-uppercase">
-                        <p>
-                            <img src="img/restaurant-logos/tantalizers.png" width="100" />
-                        </p>
                         <h3 class="bold">Tantalizers</h3>
                         <p>No 10. Ajambafi Street, Mafuluku</p>
                         <p>Ojodu</p>
@@ -78,19 +91,9 @@
             </div>
         </div>
 
-    </header>
 
-    <div class="wrap wakis-brown">
-        <div class="container">
-            <div class="col-xs-12">
-                <ol class="breadcrumb">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Results</a></li>
-                    <li class="active">Tantalizers</li>
-                </ol>
-            </div>
-        </div>
-    </div>
+
+    </header>
 
     <main class="main">
         <div class="wrap">
@@ -100,75 +103,6 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <button class="btn btn-warning down-30 btn-block brow-btn"><i class="material-icons">keyboard_backspace</i> Back to Results</button>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <div class="list-group">
-                                            <a href="#" class="list-group-item">
-                                                African
-                                                <span class="badge">20</span>
-                                            </a>
-                                            <a href="#" class="list-group-item">Rice Dishes <span class="badge">10</span></a>
-                                            <a href="#" class="list-group-item">Snacks <span class="badge">25</span></a>
-                                            <a href="#" class="list-group-item">Sides <span class="badge">15</span></a>
-                                            <a href="#" class="list-group-item">Drinks <span class="badge">20</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row" style="padding:0px 15px;">
-                                    <div class="col-xs-12 white-back-grey-border">
-                                        <div class="row filter-head">
-                                            <div class="col-xs-12">
-                                                <h5>Opening Times</h5>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <table class="table table-condensed table-striped margin-bottom-0">
-                                                <tr>
-                                                    <td>Monday</td>
-                                                    <td class="text-right">09:00am - 09:00pm</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Tuesday</td>
-                                                    <td class="text-right">09:00am - 09:00pm</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Wednesday</td>
-                                                    <td class="text-right">09:00am - 09:00pm</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Thursday</td>
-                                                    <td class="text-right">09:00am - 09:00pm</td>
-                                                <tr>
-                                                    <td>Friday</td>
-                                                    <td class="text-right">09:00am - 09:00pm</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Saturday</td>
-                                                    <td class="text-right">09:00am - 09:00pm</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Sunday</td>
-                                                    <td class="text-right">09:00am - 09:00pm</td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row pad-0-15 top-30 down-30">
-                                    <div class="white-back-grey-border text-center">
-                                        <h4><i class="material-icons grey-txt" style="font-size:48px;">live_help</i></h4>
-                                        <h4 class="bold wakis-orange-txt">Need Help?</h4>
-                                        <p><a href="tel:08054139218">+234-805-413-9218</a></p>
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
 
@@ -182,7 +116,6 @@
                                     <ul class="nav nav-tabs light-grey-back restaurant-tab" role="tablist">
                                         <li role="presentation" class="active"><a href="#menu" aria-controls="menu" role="tab" data-toggle="tab">Menu</a></li>
                                         <li role="presentation"><a href="#reviews" aria-controls="reviews" role="tab" data-toggle="tab">Reviews</a></li>
-                                        <li role="presentation"><a href="#info" aria-controls="info" role="tab" data-toggle="tab">Info</a></li>
                                     </ul>
                                     <!-- Tab panes -->
                                     <div class="tab-content">
@@ -233,125 +166,9 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="pad-15">
-                                                    <div class="row pad-15 food-menu">
-                                                        <div class="col-sm-8 border-right">
-                                                            <div class="row">
-                                                                <div class="col-sm-3 text-center food-img">
-                                                                    <img src="img/food.jpg" class="img img-responsive" />
-                                                                </div>
-                                                                <div class="col-sm-9">
-                                                                    <h4 class="bold">
-                                                                        The Place Special Salad
-                                                                    </h4>
-                                                                    <p style="font-size:12px;">
-                                                                        Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                                        elit. Nunc accumsan, enim in vestibulum tincidunt,
-                                                                    </p>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-4 pad-0">
-                                                            <table class="table table-condensed">
-                                                                <tr>
-                                                                    <td>Chicken</td>
-                                                                    <td class="text-right"> 2,500 <i class="wakis-orange-txt material-icons">add_shopping_cart</i></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Veggie</td>
-                                                                    <td class="text-right"> 2,500 <i class="wakis-orange-txt material-icons">add_shopping_cart</i></td>
-                                                                </tr>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="pad-15">
-                                                    <div class="row pad-15 food-menu">
-                                                        <div class="col-sm-8 border-right">
-                                                            <div class="row">
-                                                                <div class="col-sm-3 text-center food-img">
-                                                                    <img src="img/food.jpg" class="img img-responsive" />
-                                                                </div>
-                                                                <div class="col-sm-9">
-                                                                    <h4 class="bold">
-                                                                        The Place Special Salad
-                                                                    </h4>
-                                                                    <p style="font-size:12px;">
-                                                                        Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                                        elit. Nunc accumsan, enim in vestibulum tincidunt,
-                                                                    </p>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-4 pad-0">
-                                                            <table class="table table-condensed">
-                                                                <tr>
-                                                                    <td>Chicken</td>
-                                                                    <td class="text-right"> 2,500 <i class="wakis-orange-txt material-icons">add_shopping_cart</i></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Veggie</td>
-                                                                    <td class="text-right"> 2,500 <i class="wakis-orange-txt material-icons">add_shopping_cart</i></td>
-                                                                </tr>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="pad-15">
-                                                    <div class="row pad-15 food-menu">
-                                                        <div class="col-sm-8 border-right">
-                                                            <div class="row">
-                                                                <div class="col-sm-3 text-center food-img">
-                                                                    <img src="img/food.jpg" class="img img-responsive" />
-                                                                </div>
-                                                                <div class="col-sm-9">
-                                                                    <h4 class="bold">
-                                                                        The Place Special Salad
-                                                                    </h4>
-                                                                    <p style="font-size:12px;">
-                                                                        Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                                        elit. Nunc accumsan, enim in vestibulum tincidunt,
-                                                                    </p>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-4 pad-0">
-                                                            <table class="table table-condensed">
-                                                                <tr>
-                                                                    <td>Chicken</td>
-                                                                    <td class="text-right"> 2,500 <i class="wakis-orange-txt material-icons">add_shopping_cart</i></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>Veggie</td>
-                                                                    <td class="text-right"> 2,500 <i class="wakis-orange-txt material-icons">add_shopping_cart</i></td>
-                                                                </tr>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                
-
 
                                             </div>
-
-                                            <div>
-                                                <div class="row pad-0-15">
-                                                    <div class="col-xs-12 text-shadow menu-back">
-                                                        African Dishes
-                                                    </div>
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-xs-12 text-center">
-                                                        <span class="menu-cat-desc"> Have a taste of our most popular dishes, made to your own delight</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-
+                              
                                         </div>
 
                                         <div role="tabpanel" class="tab-pane" id="reviews">
@@ -362,7 +179,7 @@
                                                             <div class="col-xs-12 light-grey-back">
                                                                 <div class="row">
                                                                     <div class="col-xs-12">
-                                                                        <h4>10 Reviews <span><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span></h4>
+                                                                        <h4>10 Reviews <span><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-grey">star</i></span></h4>
                                                                     </div>
                                                                 </div>
                                                                
@@ -374,16 +191,16 @@
 
                                                                 <div class="row">
                                                                     <div class="col-sm-6 rev-cat">
-                                                                        Food Quality <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
+                                                                        Food Quality <span class="pull-right rev-rate"><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-grey">star</i></span>
                                                                     </div>
                                                                     <div class="col-sm-6 rev-cat">
-                                                                        Delivery <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
+                                                                        Delivery <span class="pull-right rev-rate"><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-grey">star</i></span>
                                                                     </div>
                                                                     <div class="col-sm-6 rev-cat">
-                                                                        Price <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
+                                                                        Price <span class="pull-right rev-rate"><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-grey">star</i></span>
                                                                     </div>
                                                                     <div class="col-sm-6 rev-cat">
-                                                                        Customer Service <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
+                                                                        Customer Service <span class="pull-right rev-rate"><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-grey">star</i></span>
                                                                     </div>
                                                                 </div>
 
@@ -408,16 +225,16 @@
 
                                                                 <div class="row">
                                                                     <div class="col-sm-6 rev-cat">
-                                                                        Food Quality <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
+                                                                        Food Quality <span class="pull-right rev-rate"><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-grey">star</i></span>
                                                                     </div>
                                                                     <div class="col-sm-6 rev-cat">
-                                                                        Delivery <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
+                                                                        Delivery <span class="pull-right rev-rate"><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-grey">star</i></span>
                                                                     </div>
                                                                     <div class="col-sm-6 rev-cat">
-                                                                        Price <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
+                                                                        Price <span class="pull-right rev-rate"><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-grey">star</i></span>
                                                                     </div>
                                                                     <div class="col-sm-6 rev-cat">
-                                                                        Customer Service <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
+                                                                        Customer Service <span class="pull-right rev-rate"><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-gold">star</i><i class="material-icons star-grey">star</i></span>
                                                                     </div>
                                                                 </div>
                                                                 
@@ -430,101 +247,6 @@
                                                         </div>
 
 
-                                                        <div class="row">
-                                                            <div class="col-xs-12">
-                                                                <div class="row">
-                                                                    <div class="col-xs-12">
-                                                                        <h4>Teniola Akande <small class="grey-txt">(Tue, 10 March 2016)</small></h4>
-                                                                        <small>
-                                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in felis vel nunc gravida tempor at eu libero. Nulla facilisis eleifend sapien, non rutrum elit dapibus vel. Suspendisse id nunc at felis malesuada tristique. Maecenas quam purus, ultrices vitae mollis pretium, dignissim porta diam.
-                                                                        </small>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="row">
-                                                                    <div class="col-sm-6 rev-cat">
-                                                                        Food Quality <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
-                                                                    </div>
-                                                                    <div class="col-sm-6 rev-cat">
-                                                                        Delivery <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
-                                                                    </div>
-                                                                    <div class="col-sm-6 rev-cat">
-                                                                        Price <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
-                                                                    </div>
-                                                                    <div class="col-sm-6 rev-cat">
-                                                                        Customer Service <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="row">
-                                                                    <div class="col-xs-12">
-                                                                        <hr />
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-
-                                                        <div class="row">
-                                                            <div class="col-xs-12">
-                                                                <div class="row">
-                                                                    <div class="col-xs-12">
-                                                                        <h4>Teniola Akande <small class="grey-txt">(Tue, 10 March 2016)</small></h4>
-                                                                        <small>
-                                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in felis vel nunc gravida tempor at eu libero. Nulla facilisis eleifend sapien, non rutrum elit dapibus vel. Suspendisse id nunc at felis malesuada tristique. Maecenas quam purus, ultrices vitae mollis pretium, dignissim porta diam.
-                                                                        </small>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="row">
-                                                                    <div class="col-sm-6 rev-cat">
-                                                                        Food Quality <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
-                                                                    </div>
-                                                                    <div class="col-sm-6 rev-cat">
-                                                                        Delivery <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
-                                                                    </div>
-                                                                    <div class="col-sm-6 rev-cat">
-                                                                        Price <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
-                                                                    </div>
-                                                                    <div class="col-sm-6 rev-cat">
-                                                                        Customer Service <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="row">
-                                                                    <div class="col-xs-12">
-                                                                        <hr />
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-
-                                                        <div class="row">
-                                                            <div class="col-xs-12">
-                                                                <div class="row">
-                                                                    <div class="col-xs-12">
-                                                                        <h4>Teniola Akande <small class="grey-txt">(Tue, 10 March 2016)</small></h4>
-                                                                        <small>
-                                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in felis vel nunc gravida tempor at eu libero. Nulla facilisis eleifend sapien, non rutrum elit dapibus vel. Suspendisse id nunc at felis malesuada tristique. Maecenas quam purus, ultrices vitae mollis pretium, dignissim porta diam.
-                                                                        </small>
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="row">
-                                                                    <div class="col-sm-6 rev-cat">
-                                                                        Food Quality <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
-                                                                    </div>
-                                                                    <div class="col-sm-6 rev-cat">
-                                                                        Delivery <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
-                                                                    </div>
-                                                                    <div class="col-sm-6 rev-cat">
-                                                                        Price <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
-                                                                    </div>
-                                                                    <div class="col-sm-6 rev-cat">
-                                                                        Customer Service <span class="pull-right rev-rate"><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-gold">sentiment_very_satisfied</i><i class="material-icons star-grey">sentiment_very_satisfied</i></span>
-                                                                    </div>
-                                                                </div>
 
                                                                 <div class="row">
                                                                     <div class="col-xs-12">
@@ -538,168 +260,8 @@
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <div role="tabpanel" class="tab-pane" id="info">
-                                            <div class="col-xs-12">
-                                                <div class="row top-30">
-                                                    <div class="col-xs-12">
-                                                        <div class="rest-slider">
-                                                            <div><img src="img/Suya-1.jpg" class="img img-responsive" /></div>
-                                                            <div><img src="img/pounded-yam.JPG" class="img img-responsive" /></div>
-                                                            <div><img src="img/nyny-breakfast-10.jpg" class="img img-responsive" /></div>
-                                                            <div><img src="img/Suya-1.jpg" class="img img-responsive" /></div>
-                                                            <div><img src="img/pounded-yam.JPG" class="img img-responsive" /></div>
-                                                            <div><img src="img/nyny-breakfast-10.jpg" class="img img-responsive" /></div>
-                                                        </div>
-                                                        <div class="rest-thumb">
-                                                            <div><img src="img/Suya-1.jpg" class="img img-responsive" /></div>
-                                                            <div><img src="img/pounded-yam.JPG" class="img img-responsive" /></div>
-                                                            <div><img src="img/nyny-breakfast-10.jpg" class="img img-responsive" /></div>
-                                                            <div><img src="img/Suya-1.jpg" class="img img-responsive" /></div>
-                                                            <div><img src="img/pounded-yam.JPG" class="img img-responsive" /></div>
-                                                            <div><img src="img/nyny-breakfast-10.jpg" class="img img-responsive" /></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row top-30">
-                                                    <div class="col-xs-12">
-                                                        <h4>Description</h4>
-                                                        <div class="descritpion">
-                                                            <p>
-                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in felis vel nunc gravida tempor at eu libero. Nulla facilisis eleifend sapien, non rutrum elit dapibus vel. Suspendisse id nunc at felis malesuada tristique. Maecenas quam purus, ultrices vitae mollis pretium, dignissim porta diam. Nunc nibh mauris, gravida in consectetur nec, bibendum eget magna. Ut sodales consectetur fringilla. Morbi consequat metus commodo metus blandit dignissim et eu augue. Integer sollicitudin dui ac ullamcorper consectetur. Quisque nulla enim, scelerisque et imperdiet tempus, imperdiet id augue. Nullam bibendum, quam facilisis ornare rutrum, libero ipsum mollis erat, at hendrerit ante risus eget turpis. Vivamus porta tempor condimentum.
-                                                            </p>
-                                                            <p>
-                                                                Praesent at lobortis tellus. Etiam dignissim mi a lacus maximus efficitur. Curabitur non elit tristique felis malesuada lobortis egestas sit amet nisl. Aenean risus risus, molestie ac imperdiet id, eleifend vitae libero. Mauris non risus enim. Nunc luctus elit vel mollis porttitor. Aenean tempor libero ante, at pharetra dui eleifend eu. Ut vestibulum, augue id hendrerit convallis, justo metus bibendum ligula, eleifend dignissim erat felis ac ex. Fusce suscipit tristique odio, et tincidunt lorem vestibulum vitae. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent at viverra est. In eget nisl ligula.
-                                                            </p>
-                                                            <p>
-                                                                Vivamus sem sapien, ultricies sed venenatis quis, porttitor lobortis sapien. Proin viverra velit sit amet porta dictum. Nullam finibus feugiat vulputate. Mauris non eleifend urna. Aliquam nec pulvinar arcu. Etiam in lacus eu nulla luctus vestibulum. Vivamus in lobortis ligula. Phasellus maximus sapien eget elit pretium elementum in eu arcu. Aenean consectetur consectetur nulla.
-                                                            </p>
-                                                            <p>
-                                                                Sed tempor sed velit eget venenatis. Nullam rhoncus libero nisl, a congue est fringilla malesuada. Duis venenatis volutpat orci ut convallis. In hac habitasse platea dictumst. Suspendisse vehicula maximus sem, ac sollicitudin sem suscipit nec. Donec sit amet commodo nibh. Pellentesque tempor condimentum turpis molestie semper. Aenean tempor eleifend urna, sit amet egestas ligula porta non. Vestibulum efficitur odio vitae felis consectetur luctus. Duis convallis dolor a laoreet aliquet. Mauris id tincidunt nibh.
-                                                            </p>
-                                                            <p>
-                                                                Vestibulum finibus sit amet dui vel scelerisque. Morbi tortor augue, tempus non aliquet quis, varius sit amet nunc. Donec non elit felis. Quisque ullamcorper nunc ac suscipit faucibus. Praesent ut accumsan nulla. Integer in blandit lorem. Donec metus mauris, varius vitae interdum finibus, euismod a leo.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-3 pad-0-30">
-                        <div class="row white-back-grey-border">
-                            <div class="col-xs-12">
-                                <div class="row filter-head">
-                                    <div class="col-xs-12">
-                                        <h5 class="bold">Your Order <i class="material-icons wakis-orange-txt pull-right">shopping_basket</i></h5>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-6 text-center radio-order">
-                                        <div class="radio">
-                                            <label>
-                                                <input type="radio" checked name="order" value="Delivery">
-                                                <i class="material-icons order-radio">radio_button_checked</i> Delivery
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 text-center radio-order">
-                                        <div class="radio">
-                                            <label>
-                                                <input type="radio" name="order" value="Pickup">
-                                                <i class="material-icons order-radio">radio_button_unchecked</i> Pickup
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-xs-12 text-center">
-                                        <p class="grey-txt">
-                                            <small><i class="material-icons">&#xE91B;</i>Delivery: N 1,000</small> &bull; <small><i class="material-icons">credit_card</i> Min Order: N5,000</small>
-                                        </p>
-                                        <hr />
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <ul class="fa-ul cart-items">
-                                            <li><i class="fa-li fa fa-minus-circle"></i>
-                                                <div class="row">
-                                                    <div class="col-sm-8">
-                                                        <h5 class="bold">The Special Salad</h5>
-                                                        <p><small>Veggie x1, Extra Chicken</small></p>
-                                                    </div>
-                                                    <div class="col-sm-4 text-right">
-                                                        2,499.99
-                                                    </div>
-                                                </div>
-                                            
-                                            </li>
-                                            <li>
-                                                <i class="fa-li fa fa-minus-circle"></i>
-                                                <div class="row">
-                                                    <div class="col-sm-8">
-                                                        <h5 class="bold">The Special Salad</h5>
-                                                        <p><small>Veggie x1, Extra Chicken</small></p>
-                                                    </div>
-                                                    <div class="col-sm-4 text-right">
-                                                        2,499.99
-                                                    </div>
-                                                </div>
-
-                                            </li>
-                                            <li>
-                                                <i class="fa-li fa fa-minus-circle"></i>
-                                                <div class="row">
-                                                    <div class="col-sm-8">
-                                                        <h5 class="bold">The Special Salad</h5>
-                                                        <p><small>Veggie x1, Extra Chicken</small></p>
-                                                    </div>
-                                                    <div class="col-sm-4 text-right">
-                                                        2,499.99
-                                                    </div>
-                                                </div>
-
-                                            </li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-xs-12 pad-0">
-                                        <table class="table table-condensed table-striped">
-                                            <tr>
-                                                <td class="bold">Sub Total</td>
-                                                <td class="text-right">24,999.98</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="bold">Delivery</td>
-                                                <td class="text-right">1,000.00</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="bold">Total</td>
-                                                <td class="text-right">25,999.98</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <a href="" class="btn down-30 btn-warning orange-btn btn-block text-uppercase">Place Order</a>
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
                     </div>
