@@ -1,3 +1,3 @@
-# DBMS-assgn3
-
-Zomato api key : fd9d18a9ed0fd329ae463f6408417548
+# Online Food Ordering System
+Project for Database Management Systems Course (CS43002)
+Website made with django and mysql
